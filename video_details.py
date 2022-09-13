@@ -22,4 +22,4 @@ st.video(video_bytes)
 #list_files = subprocess.run(["cd /opt"])
 #"The exit code was: %d" % list_files.returncode
 
-st.markdown(os.walk('/'))
+st.markdown([x[0] for x in os.walk('/'))
