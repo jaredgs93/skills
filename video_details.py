@@ -17,7 +17,9 @@ video_bytes = video_file.read()
 
 st.video(video_bytes)
 
-import subprocess
+#import subprocess
 
-list_files = subprocess.run(["cd /opt"])
-"The exit code was: %d" % list_files.returncode
+#list_files = subprocess.run(["cd /opt"])
+#"The exit code was: %d" % list_files.returncode
+
+os.path.abspath(ruta_video)
