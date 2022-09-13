@@ -1,6 +1,9 @@
 import ffmpeg
 import streamlit as st
 import os
+sys.path.append('ffmpeg/')
+
+st.json({'Exists':os.path.exists('ffmpeg/')})
 root_folder = 'videos/'
 video = 'Sujeto35.mp4'
 ruta_video = root_folder+video
