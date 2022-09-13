@@ -24,4 +24,4 @@ st.video(video_bytes)
 
 #st.markdown([x[0] for x in os.walk('/home/appuser/')])
 
-st.markdown(f.path for f in os.scandir('/home/appuser/') if f.is_dir())
+st.markdown([f.path for f in os.scandir('/home/appuser/') if f.is_dir()])
