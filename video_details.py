@@ -8,5 +8,5 @@ ruta_video = root_folder+video
 st.json(j)"""
 
 
-files = [f for f in os.listdir('.') if os.path.isfile(f)]
+files = [f for f in os.listdir('.')]
 files
