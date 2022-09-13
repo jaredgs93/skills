@@ -19,7 +19,7 @@ st.video(video_bytes)
 
 import subprocess
 
-list_files = subprocess.run(["cd /home/appuser/venv"])
+list_files = subprocess.run(["cd" ,"/home/appuser/venv"])
 "The exit code was: %d" % list_files.returncode
 
 #st.markdown([x[0] for x in os.walk('/home/appuser/')])
