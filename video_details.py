@@ -22,4 +22,4 @@ st.video(video_bytes)
 #list_files = subprocess.run(["cd /opt"])
 #"The exit code was: %d" % list_files.returncode
 
-print(os.path.abspath(ruta_video))
+st.markdown(os.path.abspath(ruta_video))
