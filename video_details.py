@@ -6,7 +6,7 @@ import sys
 
 #st.json({'Exists':os.path.exists('ffmpeg/')})
 root_folder = 'videos/'
-video = 'Sujeto35.mp4'
+video = 'VID_20190610_205528543.mp4'
 ruta_video = root_folder+video
 
 #j = ffmpeg.probe(ruta_video)
@@ -17,10 +17,10 @@ video_bytes = video_file.read()
 
 st.video(video_bytes)
 
-import subprocess
+#import subprocess
 
 #list_files = subprocess.run(["/home/appuser/venv/bin/bash/ -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""])
-list_files = subprocess.run(["git clone https://github.com/Homebrew/brew homebrew"])
+#list_files = subprocess.run(["git clone https://github.com/Homebrew/brew homebrew"])
 #"The exit code was: %d" % list_files.returncode
 
 #st.markdown([x[0] for x in os.walk('/home/appuser/')])
