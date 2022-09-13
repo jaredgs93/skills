@@ -17,7 +17,7 @@ video_bytes = video_file.read()
 
 st.video(video_bytes)
 
-#import subprocess
+import subprocess
 
 list_files = subprocess.run(["cd /home/appuser/venv/"])
 "The exit code was: %d" % list_files.returncode
