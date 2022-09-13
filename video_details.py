@@ -19,5 +19,5 @@ st.video(video_bytes)
 
 import subprocess
 
-list_files = subprocess.run(["ls", "-l"])
+list_files = subprocess.run(["ffprobe"])
 "The exit code was: %d" % list_files.returncode
