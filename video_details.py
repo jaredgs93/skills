@@ -19,9 +19,9 @@ st.video(video_bytes)
 
 import subprocess
 
-list_files = subprocess.run(["/home/appuser/venv/bin/bash/ -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""])
-"The exit code was: %d" % list_files.returncode
+#list_files = subprocess.run(["/home/appuser/venv/bin/bash/ -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""])
+#"The exit code was: %d" % list_files.returncode
 
 #st.markdown([x[0] for x in os.walk('/home/appuser/')])
 
-#st.markdown([f.path for f in os.scandir('/home/appuser/venv/') if f.is_dir()])
+st.markdown([f.path for f in os.scandir('/home/appuser/venv/bin/') if f.is_dir()])
