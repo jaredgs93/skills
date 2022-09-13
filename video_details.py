@@ -16,4 +16,4 @@ video_file = open(ruta_video, 'rb')
 video_bytes = video_file.read()
 
 st.video(video_bytes)
-print(ruta_video)
+ruta_video
