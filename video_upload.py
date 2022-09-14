@@ -14,7 +14,7 @@ subprocess.check_output([ffprobe, "-version"])"""
 #sys.path.append('ffmpeg/')
 
 import os
-print(os.path.exists('/usr/bin/'))
+
 
 import streamlit as st
 import requests
@@ -38,6 +38,7 @@ if send_video:
 
         #with open(file_name, "wb") as f: # opening a file handler to create new file 
         #    f.write(resp.content)
+        print(os.path.exists('/usr/bin/'))
         video_details.show_metadata(url_video)
         
 
