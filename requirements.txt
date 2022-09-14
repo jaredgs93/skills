@@ -1,2 +1,7 @@
-static-ffmpeg==2.2.0
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+ffprobe==0.5
+ffprobe-python==1.0.3
+requests==2.28.1
 streamlit==1.12.2
+streamlit-player==0.1.5
