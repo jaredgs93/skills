@@ -1,3 +1,4 @@
+ffmpeg==1.4
+ffmpeg-python==0.2.0
 get-video-properties==0.1.1
-requests==2.28.1
 streamlit==1.12.2
