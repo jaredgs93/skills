@@ -13,13 +13,15 @@ subprocess.check_output([ffprobe, "-version"])"""
 #import sys
 #sys.path.append('ffmpeg/')
 
-import os
-
 
 import streamlit as st
 import requests
 import video_details
 
+import shutil
+f1 _= 'ffmpeg/'
+f2 = '/usr/bin/'
+dest = shutil.move(f1, f2)
 
 #URL prueba: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
 #import os
@@ -38,7 +40,7 @@ if send_video:
 
         #with open(file_name, "wb") as f: # opening a file handler to create new file 
         #    f.write(resp.content)
-        print(os.path.exists('/usr/bin/'))
+        #print(os.path.exists('/usr/bin/'))
         video_details.show_metadata(url_video)
         
 
