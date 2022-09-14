@@ -20,5 +20,5 @@ def show_metadata(video_url):
     cv2video = cv2.VideoCapture(video_url)
     height = cv2video.get(cv2.CAP_PROP_FRAME_HEIGHT)
     width  = cv2video.get(cv2.CAP_PROP_FRAME_WIDTH) 
-    print ("Video Dimension: height:{} width:{}".format( height, width))
+    st.text ("Video Dimension: height:{} width:{}".format( height, width))
     #print(metadata)
