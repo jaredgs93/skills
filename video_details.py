@@ -21,6 +21,10 @@ def show_metadata(video_url):
     metadata = {}
     metadata['height'] = cv2video.get(cv2.CAP_PROP_FRAME_HEIGHT)
     metadata['width']  = cv2video.get(cv2.CAP_PROP_FRAME_WIDTH) 
+    metadata['frame_rate'] = cv2video.get(cv2.CAP_PROP_FPS)
+    metadata['fourcc'] = cv2video.get(cv2.CAP_PROP_FOURCC)
+    metadata['frame_count'] = cv2video.get(cv2.CAP_PROP_FRAME_COUNT)
+    metadata['format'] = cv2video.get(cv2.CAP_PROP_FORMAT)
     #st.text ("Video Dimension: height:{} width:{}".format( height, width))
     st.json(metadata)
     #print(metadata)
