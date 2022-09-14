@@ -33,6 +33,7 @@ def show_metadata(video_url):
         #metadata['image_gain'] = cv2video.get(cv2.CAP_PROP_GAIN)
         #st.text ("Video Dimension: height:{} width:{}".format( height, width))
         metadata['sample_aspect_ratio'] = cv2video.get(cv2.CAP_PROP_SAR_NUM)
+        metadata['iso_speed'] = cv2video.get(cv2.CAP_PROP_ISO_SPEED)
 
         st.json(metadata)
     except:
