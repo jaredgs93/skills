@@ -12,7 +12,7 @@ url_video = st.text_input('URL del video', '')
 send_video = st.button('Cargar video')
 if send_video:
     #try:
-        file_name = 'videos/trial_video.mp4' 
+        file_name = 'trial_video.mp4' 
         resp = requests.get(url_video) # making requests to server
 
         with open(file_name, "wb") as f: # opening a file handler to create new file 
