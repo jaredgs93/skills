@@ -32,7 +32,7 @@ os.system("static_ffprobe -version")
 st.set_page_config(page_title="Carga de video")
 
 url_video = st.text_input('URL del video', '')
-send_video = st.button('Cargar video')
+send_video = st.button('Cargar URL del video')
 if send_video:
     #try:
         #file_name = 'trial_video.mp4' 
