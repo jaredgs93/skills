@@ -1,4 +1,4 @@
-import os
+"""import os
 os.system("static_ffmpeg -version")
 os.system("static_ffprobe -version")
 
@@ -8,8 +8,10 @@ from static_ffmpeg import run
 ffmpeg, ffprobe = run.get_or_fetch_platform_executables_else_raise()
 # ffmpeg, ffprobe will be paths to ffmpeg and ffprobe.
 subprocess.check_output([ffmpeg, "-version"])
-subprocess.check_output([ffprobe, "-version"])
+subprocess.check_output([ffprobe, "-version"])"""
 
+import sys
+sys.path.append('ffmpeg/')
 import streamlit as st
 import requests
 import video_details
