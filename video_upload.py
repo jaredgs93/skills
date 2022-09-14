@@ -7,7 +7,7 @@ st.set_page_config(page_title="Carga de video")
 url_video = st.text_input('URL del video', '')
 send_video = st.button('Cargar video')
 if send_video:
-    try:
+    #try:
         video_details.show_metadata(url_video)
-    except:
-        st.warning('URL no válida. Intentar de nuevo.', icon="⚠️")
+    #except:
+        #st.warning('URL no válida. Intentar de nuevo.', icon="⚠️")
