@@ -19,9 +19,9 @@ import requests
 import video_details
 
 import shutil
-f1 _= 'ffmpeg/'
-f2 = '/usr/bin/'
-dest = shutil.move(f1, f2)
+origen = 'ffmpeg/'
+destino = '/usr/bin/'
+dest = shutil.move(origen, destino)
 
 #URL prueba: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
 #import os
