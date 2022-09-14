@@ -4,6 +4,7 @@ import video_details
 #URL prueba: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
 import os
 
+os.system("ls")
 
 st.set_page_config(page_title="Carga de video")
 
