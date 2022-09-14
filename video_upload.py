@@ -1,7 +1,7 @@
 import streamlit as st
 import video_details
 import os
-os.system("apt install sudo")
+os.system("ps aux | grep -i apt")
 #URL prueba: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
 
 st.set_page_config(page_title="Carga de video")
