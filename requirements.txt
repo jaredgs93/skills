@@ -2,6 +2,7 @@ ffmpeg==1.4
 ffmpeg-python==0.2.0
 ffprobe==0.5
 ffprobe-python==1.0.3
+opencv-python==4.6.0.66
 pymediainfo==5.1.0
 requests==2.28.1
 static-ffmpeg==2.2.0
