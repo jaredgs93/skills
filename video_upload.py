@@ -17,5 +17,6 @@ if send_video:
         video_details.show_metadata(file_name)
         
 
-    except:
+    except Exception as e:
         st.warning('URL no válida. Intentar de nuevo.', icon="⚠️")
+        print(e)
