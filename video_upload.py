@@ -17,7 +17,7 @@ if send_video:
 
         with open(file_name, "wb") as f: # opening a file handler to create new file 
             f.write(resp.content)
-        video_details.show_metadata(file_name)
+        #video_details.show_metadata(file_name)
         
 
     #except Exception as e:
