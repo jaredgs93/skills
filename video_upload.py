@@ -1,5 +1,3 @@
-!pip install static-ffmpeg
-static_ffmpeg -version
 import streamlit as st
 import requests
 import video_details
