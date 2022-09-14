@@ -1,3 +1,7 @@
+import os
+os.system("static_ffmpeg -version")
+os.system("static_ffprobe -version")
+
 import streamlit as st
 import requests
 import video_details
