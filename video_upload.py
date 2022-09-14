@@ -34,7 +34,7 @@ st.set_page_config(page_title="Carga de video")
 url_video = st.text_input('URL del video', '')
 send_video = st.button('Cargar URL del video')
 if send_video:
-    #try:
+    try:
         #file_name = 'trial_video.mp4' 
         #resp = requests.get(url_video) # making requests to server
 
@@ -44,6 +44,6 @@ if send_video:
         video_details.show_metadata(url_video)
         
 
-    #except Exception as e:
-    #    st.warning('URL no válida. Intentar de nuevo.', icon="⚠️")
+    except Exception as e:
+        st.warning('URL no válida. Intentar de nuevo.', icon="⚠️")
     #    print(e)
