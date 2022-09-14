@@ -24,10 +24,10 @@ import video_details
 #dest = shutil.move(origen, destino)
 
 #URL prueba: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
-import os
+#import os
 
-os.system("static_ffmpeg -version")
-os.system("static_ffprobe -version")
+#os.system("static_ffmpeg -version")
+#os.system("static_ffprobe -version")
 
 st.set_page_config(page_title="Carga de video")
 
