@@ -31,7 +31,7 @@ def show_metadata(video_url):
     #metadata['hue'] = cv2video.get(cv2.CAP_PROP_HUE)
     #metadata['image_gain'] = cv2video.get(cv2.CAP_PROP_GAIN)
     #st.text ("Video Dimension: height:{} width:{}".format( height, width))
-    metadata['gamma'] = cv2video.get(cv2.CAP_PROP_GAMMA)
+    metadata['sample_aspect_ratio'] = cv2video.get(cv2.CAP_PROP_SAR_NUM)
 
     st.json(metadata)
     #print(metadata)
